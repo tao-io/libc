@@ -1,6 +1,10 @@
 __darwin_arm_exception_state64
 __darwin_arm_neon_state64
 __darwin_arm_thread_state64
+_dyld_get_image_header
+_dyld_get_image_name
+_dyld_get_image_vmaddr_slide
+_dyld_image_count
 brk
 exchangedata
 execl
@@ -11,6 +15,8 @@ execvP
 execve
 execvp
 fork
+mach_header
+mach_header_64
 sbrk
 sigaltstack
 syscall
