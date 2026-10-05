@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Restore the public dyld image APIs and Mach-O header types on iOS; these are
+  supported since iOS 2.0 and were incorrectly restricted to macOS in 0.2.190
+  ([#5601](https://github.com/rust-lang/libc/issues/5601)).
+
 ## [0.2.190](https://github.com/rust-lang/libc/compare/0.2.189...0.2.190) - 2026-10-02
 
 There is now a single config for enabling 64-bit `time_t`: `libc_unstable_time64`. This can be set
